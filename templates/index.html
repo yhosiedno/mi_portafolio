@@ -1,0 +1,58 @@
+{% extends 'base.html' %}
+
+{% block contenido %}
+
+<div class="row align-items-center mt-5 g-0">
+
+    <div class="col-md-7">
+        <h2>
+            Hola, soy <b>Ednovi Yhosiney Gutierrez Choquehuanca</b>
+        </h2>
+        <p class="lead">Estudiante de Ingeniería de Sistemas</p>
+    </div>
+
+    <div class="col-md-5 text-center">
+        <img src="{{ url_for('static', filename='images.jpg') }}" class="perfil">
+    </div>
+
+</div>
+
+<h3 class="mt-5">Habilidades</h3>
+
+<div class="row mt-3 text-center">
+
+  <div class="col-md-4">
+    <div class="card p-3 html">HTML</div>
+  </div>
+
+  <div class="col-md-4">
+    <div class="card p-3 css">CSS</div>
+  </div>
+
+  <div class="col-md-4">
+    <div class="card p-3 python">Python</div>
+  </div>
+
+</div>
+
+<h3 class="mt-5">Proyectos</h3>
+
+<div class="row mt-3">
+
+  <div class="col-md-6">
+    <div class="card p-3 proyecto1">
+      <h5>🛒 Sistema de Carrito</h5>
+      <p>Aplicación web con Flask</p>
+    </div>
+  </div>
+
+  <div class="col-md-6">
+    <div class="card p-3 proyecto2">
+      <h5>📍 Sistema Mapa Web SIG-747</h5>
+      <p>Visualización de coordenadas</p>
+    </div>
+  </div>
+
+</div>
+
+{% endblock %}
