@@ -2,18 +2,18 @@
 
 {% block contenido %}
 
-<h3>Contacto</h3>
+<h3 class="text-center text-md-start">Contacto</h3>
 
 <form method="POST">
   <input class="form-control mb-3" name="nombre" placeholder="Nombre" required>
   <input class="form-control mb-3" name="email" placeholder="Email" required>
   <textarea class="form-control mb-3" name="mensaje" placeholder="Mensaje" required></textarea>
-  <button class="btn btn-primary">Enviar</button>
+  <button class="btn btn-primary w-100 w-md-auto">Enviar</button>
 </form>
 
 <hr>
 
-<button class="btn btn-success mt-3" onclick="mostrarMensajes()">
+<button class="btn btn-success mt-3 w-100 w-md-auto" onclick="mostrarMensajes()">
     Mostrar mensajes
 </button>
 

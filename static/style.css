@@ -5,10 +5,9 @@ body {
 
 /* IMAGEN */
 .perfil {
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
     border-radius: 50%;
-    margin-left: -30px;
 }
 
 /* TARJETAS */
@@ -25,26 +24,13 @@ body {
 }
 
 /* HABILIDADES */
-.html {
-    background-color: #e44d26;
-}
-
-.css {
-    background-color: #264de4;
-}
-
-.python {
-    background-color: #306998;
-}
+.html { background-color: #e44d26; }
+.css { background-color: #264de4; }
+.python { background-color: #306998; }
 
 /* PROYECTOS */
-.proyecto1 {
-    background-color: #198754;
-}
-
-.proyecto2 {
-    background-color: #6f42c1;
-}
+.proyecto1 { background-color: #198754; }
+.proyecto2 { background-color: #6f42c1; }
 
 /* MENSAJES */
 #mensajes .card {
