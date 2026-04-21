@@ -3,14 +3,14 @@ body {
     font-family: Arial;
 }
 
-/* IMAGEN */
+
 .perfil {
     width: 180px;
     height: 180px;
     border-radius: 50%;
 }
 
-/* TARJETAS */
+
 .card {
     border-radius: 10px;
     transition: 0.3s;
@@ -23,16 +23,16 @@ body {
     transform: scale(1.05);
 }
 
-/* HABILIDADES */
+
 .html { background-color: #e44d26; }
 .css { background-color: #264de4; }
 .python { background-color: #306998; }
 
-/* PROYECTOS */
+
 .proyecto1 { background-color: #198754; }
 .proyecto2 { background-color: #6f42c1; }
 
-/* MENSAJES */
+
 #mensajes .card {
     border-left: 5px solid #0d6efd;
     background: white;
